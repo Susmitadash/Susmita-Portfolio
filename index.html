@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Susmita</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/d171d6849c.js" crossorigin="anonymous"></script>
+</head>
+<body>
+   <div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/logo-no-background.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#project">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-xmark menu" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars menu" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+              <h1>Hello, I am <br /><span>Susmita</span> Dash</h1>
+        </div>
+    </div>
+   </div> 
+   <!-----------About--------->
+   <div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/user2.png">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>I'm a final-year Electrical Engineering student,VSSUT,Burla deeply passionate about web development, UI/UX design, and app design. Beyond tech, I find joy in dancing, travel, and music, aiming to blend creativity and technology for exceptional digital experiences.</p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab " id="skills">
+                    <ul>
+                        <li><span>Web Development</span><br>HTML,CSS,Javascript</li>
+                        <li><span>Programming Language</span><br>Java</li>
+                        <li><span>Tools</span><br>Microsoft Excel,Microsoft Word</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>TP Western Odisha Distribution Limited (TPWODL)|Summer Intern</span><br>June 2023-July 2023|Sambalpur<br>Studied Energy Distribution System In Primary Sub Station</li>
+                        <li><span>Hindalco Industries Limited|Summer Intern</span><br>May 2023-June 2023|Hirakhud<br>Developed a targeted Energy Consumption report in Excel for a specific month</li>
+                        <li><span>Rourkela Steel Plant</span><br>June 2023-July 2023|Rourkela<br>The various electrical devices and their maintenance employed in an integrated steel plant were carefully examined.</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>VSSUT, Burla</span><br>B. Tech (Electrical Engineering) | 2020 - Present<br>CGPA: 7.40</li>
+                        <li><span>Vikash The Concept School</span><br>CBSE(class- XII)|2020<br>CGPA: 8.20</li>
+                        <li><span>Vikash The Concept School</span><br>CBSE(class- XI)|2018<br>CGPA: 8.60</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+   </div>
+
+   <!---------Project---------->
+   <div id="project">
+       <div class="container">
+        <h1 class="sub-title">My Projects</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work1.png">
+                <div class="layer">
+                    <h3>Modern Website Using React.js</h3>
+                    <p>In this project, I designed and developed a modern website utilizing the power of React.js. It seamlessly integrates interactive elements and ensures smooth navigation for users.</p>
+                    <a href="https://susmitadash.github.io/Modernwebsite-Using-ReactJs/"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-2.png">
+                <div class="layer">
+                    <h3>Twitter Login Page</h3>
+                    <p>In my project, I redesigned the Twitter login page for an improved user experience. I focused on a clean color palette, legible typography, and a balanced layout. The outcome is a modern, user-friendly interface that maintains Twitter's brand identity. This project demonstrates my ability to merge design aesthetics with user-centered functionality.</p>
+                    <a href="https://susmitadash.github.io/Twitter-Login-Page/"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-3.png">
+                <div class="layer">
+                    <h3>User Profile Card</h3>
+                    <p>In my project, I've revamped the user login page using JSX to provide an elevated user experience.This project serves as a testament to my proficiency in merging design aesthetics with user-oriented practicality, ultimately making the login process more attractive and user-intuitive.</p>
+                    <a href="https://susmitadash.github.io/user-profile-card/"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See More</a>
+       </div>
+    </div>
+
+    <!---------Contact---------->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                   <h1 class="sub-title">Contact Me</h1>
+                   <p><i class="fa-solid fa-paper-plane"></i> dashsusmita999@gmail.com</p>
+                   <div class="social-icons">
+                    <a href="https://github.com/Susmitadash"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/susmita-dash-503502212/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://www.instagram.com/__dashsusmita07__/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.facebook.com/susmita.dash.58910"><i class="fa-brands fa-facebook"></i></a>
+                   </div>
+                   <a href="https://drive.google.com/drive/folders/15J2cQJe4MVqLkmyvGQaMEe_s2DQS7eC9?usp=drive_link" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="You Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright @ Susmita</p>
+        </div>
+    </div>
+
+   <script>
+      var tablinks=document.getElementsByClassName("tab-links");
+      var tabcontents=document.getElementsByClassName("tab-contents");
+
+      function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+      }
+   </script>
+
+   <script>
+
+      var sidemenu= document.getElementById("sidemenu");
+      function openmenu(){
+         sidemenu.style.right = "0";
+      }
+      function closemenu(){
+         sidemenu.style.right = "-200px";
+      }
+
+   </script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbw8JbJLuDzhRBohRfb9fAKfjzZdcCFqhhKlToSLrvgl8q_OYHj5ffCpaQrENM8owV4t7A/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg= document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML="Message Sent Successfully"
+            setTimeout(function(){
+                msg.innerHTML=""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+</body>
+</html>
